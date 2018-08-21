@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Jukebox</string>
+    <string name="category_playing">Now Playing</string>
     <string name="category_all">All Music (Shuffled)</string>
-    <string name="category_artist">All Music (Ordered by Artist)</string>
+    <string name="category_artist">Artists</string>
     <string name="category_kids">For Kids</string>
-    <string name="category_classical">Classical</string>
 </resources>
