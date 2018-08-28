@@ -4,16 +4,16 @@
     <dimen name="text_default">14sp</dimen>
     <dimen name="text_title">42sp</dimen>
     <dimen name="text_title_land">40sp</dimen>
-    <dimen name="text_description">22sp</dimen>
+    <dimen name="text_description">32sp</dimen>
     <dimen name="text_description_land">20sp</dimen>
 
     <dimen name="spacing_small">8dp</dimen>
-    <dimen name="spacing_small_neg">-8dp</dimen>
     <dimen name="spacing_medium">16dp</dimen>
-    <dimen name="spacing_medium_neg">-16dp</dimen>
     <dimen name="spacing_large">24dp</dimen>
+    <dimen name="spacing_xxlarge">40dp</dimen>
 
-    <dimen name="separator_height">3dp</dimen>
+    <dimen name="separator_height">2dp</dimen>
 
     <dimen name="list_item_height">90dp</dimen>
+    <dimen name="text_large">20sp</dimen>
 </resources>

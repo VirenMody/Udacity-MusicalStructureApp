@@ -20,11 +20,11 @@ public class Song {
         mArtistName = artistName;
     }
 
-    public String getmSongName() {
+    public String getSongName() {
         return mSongName;
     }
 
-    public String getmArtistName() {
+    public String getArtistName() {
         return mArtistName;
     }
 }
