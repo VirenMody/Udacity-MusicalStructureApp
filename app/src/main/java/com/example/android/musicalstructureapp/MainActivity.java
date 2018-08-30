@@ -25,11 +25,11 @@ public class MainActivity extends AppCompatActivity {
         });
 
         // Retrieve the TextView for All Music List Shuffled Activity and attach an onClicklistener to it
-        TextView musicShuffled = (TextView) findViewById(R.id.all_shuffled);
+        TextView musicShuffled = (TextView) findViewById(R.id.music_library);
         musicShuffled.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent allMusicShuffledIntent = new Intent(MainActivity.this, AllMusicShuffledActivity.class);
+                Intent allMusicShuffledIntent = new Intent(MainActivity.this, MusicLibraryActivity.class);
                 startActivity(allMusicShuffledIntent);
             }
         });

@@ -16,8 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".NowPlayingActivity" />
-        <activity android:name=".AllMusicShuffledActivity"></activity>
+        <activity android:name=".NowPlayingActivity" android:label="@string/now_playing" />
+        <activity android:name=".MusicLibraryActivity" android:label="@string/category_all"></activity>
     </application>
 
 </manifest>

@@ -10,12 +10,12 @@ import android.widget.AdapterView.OnItemClickListener;
 
 import java.util.ArrayList;
 
-public class AllMusicShuffledActivity extends AppCompatActivity {
+public class MusicLibraryActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_all_music_shuffled);
+        setContentView(R.layout.activity_music_library);
 
         // Populate the list of songs and their artists
         ArrayList<Song> songs = new ArrayList<Song>();
@@ -44,7 +44,7 @@ public class AllMusicShuffledActivity extends AppCompatActivity {
                 extras.putString("SONG_NAME", songData.getSongName());
                 extras.putString("ARTIST_NAME", songData.getArtistName());
 
-                Intent nowPlayingIntent = new Intent(AllMusicShuffledActivity.this, NowPlayingActivity.class);
+                Intent nowPlayingIntent = new Intent(MusicLibraryActivity.this, NowPlayingActivity.class);
                 nowPlayingIntent.putExtras(extras);
                 startActivity(nowPlayingIntent);
             }

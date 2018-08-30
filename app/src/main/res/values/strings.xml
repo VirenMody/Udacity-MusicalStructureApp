@@ -1,11 +1,12 @@
 <resources>
     <string name="app_name">Jukebox</string>
     <string name="category_playing">Now Playing</string>
-    <string name="category_all">All Music (Shuffled)</string>
+    <string name="category_all">Music Library</string>
     <string name="category_artist">Artists</string>
     <string name="category_kids">For Kids</string>
     <string name="now_playing">Now Playing...</string>
     <string name="song_name">Song Name</string>
     <string name="artist_name">Artist Name</string>
     <string name="play">Play</string>
+    <string name="back_button">Back</string>
 </resources>

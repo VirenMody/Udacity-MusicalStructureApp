@@ -17,6 +17,21 @@
         android:alpha="0.5"
         android:src="@drawable/equalizer" />
 
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/spacing_small"
+        android:layout_marginLeft="@dimen/spacing_medium"
+        android:layout_marginStart="@dimen/spacing_medium"
+        android:layout_marginRight="@dimen/spacing_large"
+        android:layout_marginEnd="@dimen/spacing_large"
+        android:layout_marginTop="@dimen/spacing_medium"
+        android:layout_marginBottom="@dimen/spacing_medium"
+        android:background="@drawable/my_button_bg"
+        android:textSize="@dimen/text_medium"
+        android:text="@string/back_button" />
+
     <TextView
         android:id="@+id/playing"
         android:layout_above="@id/song_details"

@@ -3,6 +3,8 @@ package com.example.android.musicalstructureapp;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -13,6 +15,7 @@ public class NowPlayingActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_now_playing);
 
+        final Button goToMusicLibrary = (Button) this.findViewById(R.id.back_button);
         Intent intent = getIntent();
         Bundle extras = intent.getExtras();
 
@@ -26,5 +29,14 @@ public class NowPlayingActivity extends AppCompatActivity {
             ((TextView) findViewById(R.id.song_name)).setText(songName);
             ((TextView) findViewById(R.id.artist_name)).setText(artistName);
         }
+
+        goToMusicLibrary.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
+
+
     }
 }
